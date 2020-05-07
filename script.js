@@ -1,1 +1,4 @@
-document.getElementById("body").innerText = "Change it up";
+var title = document.querySelector('#title');
+var text = document.querySelector('#h1');
+
+text.innerHTML = title.innerText;
